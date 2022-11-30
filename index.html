@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metam Games - Formulaire</title>
+    <link rel="stylesheet" media="(min-width: 2000px)" href="css/style6.css">
+    <link rel="stylesheet" media="(min-width: 1600px) and (max-width: 2000px)" href="css/style5.css">
+    <link rel="stylesheet" media="(min-width: 1200px) and (max-width: 1600px)" href="css/style4.css">
+    <link rel="stylesheet" media="(min-width: 900px) and (max-width: 1200px)" href="css/style3.css">
+    <link rel="stylesheet" media="(min-width: 500px) and (max-width: 900px)" href="css/style2.css">
+    <link rel="stylesheet" media="(max-width: 500px)" href="css/style1.css" />
+</head>
+<body>
+    <header>    
+        <a href="" id="link-logo-metam">
+            <img id="logo-metam" src="images/LogoMetam.png" alt="">
+        </a>
+        <nav>
+            <label id="label-nav" for="toggle">☰</label>
+            <input type="checkbox" id="toggle">
+            <div class="main_pages">
+                <a href="" class="link-nav">Accueil</a>
+                <a href="" class="link-nav">Nos Produit</a>
+                <a href="" class="link-nav">Nous Trouver</a>
+                <a href="" class="link-nav">Nous Contacter</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="div-title-options">
+            <h2 class="title-options">livraison</h2>
+        </div>
+            <div id="div-all-delivery-options">
+                <div id="div-residence-option">
+                    <div class="div-title-delivery-options">
+                        <h2 class="title-delivery-options">à domicile</h2>
+                    </div>
+                    <div class="div-img-delivery-options">
+                        <img class="img-delivery-options" src="images/259502.png" alt="">
+                    </div>
+                    <div id="residence-delivery-options">
+                        <div class="container">
+                            <div class="round">
+                            <input type="checkbox" id="checkbox" value="1" />
+                            <label for="checkbox"></label>
+                            <h2 class="residence-delivery-text">La Poste DOM</h2>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="round">
+                            <input type="checkbox" id="checkbox2" value="2" />
+                            <label for="checkbox2"></label>
+                            <h2 class="residence-delivery-text">Chronopost DOM</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-relay-option">
+                    <div class="div-title-relay-option">
+                        <h2 class="title-relay-option">point relais</h2>
+                    </div>
+                    <div class="div-img-relay-option">
+                        <img class="img-relay-option" src="images/439902.png" alt="">
+                    </div>
+                    <h2 class="title-search">Chercher un point relais</h2>
+                    <div class="div-search-bar">
+                        <input class="input-search-bar" type="text" name="search[search_text]" required="required" placeholder="Code postal, adresse, ville..." data-mobile-placeholder="Rechercher" autocomplete="off">
+                        <button class="button-search-bar" type="submit">
+                            OK
+                        </button>
+                    </div>
+                </div>
+                <div id="div-shop-option">
+                    <div class="div-title-shop-option">
+                        <h2 class="title-shop-option">boutique metam</h2>
+                    </div>
+                    <div class="div-img-shop-option">
+                        <img class="img-shop-option" src="images/3443338.png" alt="">
+                    </div>
+                    <h2 class="title-search">Chercher une boutique</h2>
+                    <div class="div-search-bar">
+                        <input class="input-search-bar" type="text" name="search[search_text]" required="required" placeholder="Code postal, adresse, ville..." data-mobile-placeholder="Rechercher" autocomplete="off">
+                        <button class="button-search-bar" type="submit">
+                            OK
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>   
+        <div id="div-title-options-2">
+            <h2 class="title-options">paiement</h2>
+        </div>
+        <div id="div-bloc-all-form">
+            <form class="form-1" method="get">
+                <div class="div-title-form">
+                    <h2 class="title-form">ADRESSE DE FACTURATION</h2>
+                </div>
+                <div id="div-bloc-all-gender"> 
+                    <div id="div-bloc-gender-male">
+                        <div class="container-2">
+                            <div class="round-2">
+                            <input type="checkbox" id="checkbox3" value="3" />
+                            <label for="checkbox3"></label>
+                            <h2 class="male-name">M.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="div-bloc-gender-female">
+                        <div class="container-3">
+                            <div class="round-3">
+                            <input type="checkbox" id="checkbox4" value="4" />
+                            <label for="checkbox4"></label>
+                            <h2 class="female-name">Mme</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-complete-all-form">
+                    <div class="div-form-complete">
+                        <input class="box-forms" type="text" name="name" id="name" placeholder="Nom" required>
+                    </div>
+                    <div class="div-form-complete">
+                        <input class="box-forms" type="text" name="name2" id="name2" placeholder="Prénom" required>
+                    </div>
+                    <div class="div-form-complete">
+                        <input class="box-forms" type="text" name="name2" id="adresse" placeholder="Adresse" required>
+                    </div>
+                    <div class="div-form-complete">
+                        <input class="box-forms" type="text" name="name2" id="adresse2" placeholder="Complément d’adresse">
+                    </div>
+                    <div class="div-form-complete">
+                        <input class="box-forms" type="text" name="name2" id="postalcode" placeholder="Code postal" required>
+                    </div>
+                    <div class="div-form-complete">
+                        <input class="box-forms" type="text" name="name2" id="city" placeholder="Ville" required>
+                    </div>
+                    <div class="div-form-complete">
+                        <select class="box-forms" name="contry" required>
+                            <option value="">Pays...</option>
+                            <option value="reunion">Réunion (DOM)</option>
+                            <option value="mayote">Mayote</option>
+                            <option value="france">France</option>
+                        </select>
+                    </div>
+                    <div class="div-text-form">
+                        <h2 class="text-form">Rentrer au moins un numéro de téléphone</h2>
+                    </div>
+                    <div class="div-form-complete">
+                        <input class="box-forms" type="number" name="name2" id="phone" placeholder="Téléphone portable" required>
+                    </div>
+                    <div class="div-form-complete">
+                        <input class="box-forms" type="number" name="name2" id="phonefix" placeholder="Téléphone fixe">
+                    </div>
+                    <div class="form-button-valide">
+                        <input class="submit-button" type="button" value="VALIDER">
+                      </div>
+                </div>
+            </form>
+        </div>
+
+
+
+        <div id="div-bloc-all-form-2">
+            <form class="form-1" method="get">
+                <div class="div-title-form">
+                    <h2 class="title-form">OPTION DE PAIEMENT</h2>
+                </div>
+                <div class="div-form-complete-2">
+                    <select class="box-forms" name="contry" required>
+                        <option value="">Option de Paiement</option>
+                        <option value="visa">Visa</option>
+                        <option value="paypal">Paypal</option>
+                        <option value="mastercard">MasterCard</option>
+                        <option value="another">Autres Types...</option>
+                    </select>
+                </div>
+                <div id="div-complete-all-form-2">
+                    <div class="div-form-complete-3">
+                        <label class="top-text-form">Numéro de carte :</label>
+                        <input class="box-forms-2" type="number" name="card-number" id="card-number" placeholder="1111 1111 1111 1111" required>
+                    </div>
+                    <div class="div-form-complete-3">
+                        <label class="top-text-form">Titulaire de la carte :</label>
+                        <input class="box-forms-2" type="text" name="card-name" id="card-name" placeholder="Prénom et Nom" required>
+                    </div>
+                    <div class="div-form-complete-3">
+                        <label class="top-text-form">Date d'expiration :</label>
+                        <input class="box-forms-2" type="date" name="card-date" required>
+                    </div>
+                    <div class="div-form-complete-3">
+                        <label class="top-text-form">Code de sécurité :</label>
+                        <input class="box-forms-2" type="number" name="card-code" id="card-code" placeholder="123" required>
+                    </div>
+                    <div id="div-checkbox-certifie">
+                        <input type="checkbox" id="checkbox-certifie" value="5" required/>
+                        <label class="text-checkbox-certifie">Je certifie avoir lu, compris et accepté les <a href="">conditions générales de vente</a>
+                        </label>
+                    </div>
+
+                    <div class="form-button-valide-2">
+                        <input class="submit-button-2" type="submit" value="PAYER MA COMMANDE">
+                      </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="script/main.js"></script>
+</body>
+</html>
